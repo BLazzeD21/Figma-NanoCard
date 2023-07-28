@@ -1,0 +1,19 @@
+{
+  "name": "figma-nanocard",
+  "version": "1.0.0",
+  "description": "Spend your crypto right from your personal wallet",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLazzeD21/Figma-NanoCard.git"
+  },
+  "author": "BLazzeD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BLazzeD21/Figma-NanoCard/issues"
+  },
+  "homepage": "https://github.com/BLazzeD21/Figma-NanoCard#readme"
+}
