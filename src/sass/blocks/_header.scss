@@ -1,9 +1,10 @@
 .header {
+  position: relative;
   min-height: 600px;
+  padding: 0px 38px 30px 24px;
   background: url("../img/background/header.jpg") center (center / cover) no-repeat;
   nav {
     height: 80px;
-    margin: 0px 38px 0px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,5 +29,42 @@
     font-size: 29px;
     font-weight: 400;
     letter-spacing: 0.5px;
+  }
+  &_title {
+    width: 525px;
+    margin-top: 71px;
+    color: #000;
+    font-size: 43px;
+    font-weight: 400;
+    letter-spacing: 1.22px;
+  }
+  &_subtitle {
+    width: 526px;
+    margin-top: 29px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Outfit;
+    font-size: 22px;
+  }
+  &_btn {
+    margin-top: 22px;
+    border: none;
+    background: #000;
+    width: 201px;
+    height: 58px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  &_descr {
+    margin-top: 192px;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+  }
+  &_img {
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
   }
 }
