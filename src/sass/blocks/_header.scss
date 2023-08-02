@@ -40,28 +40,26 @@
       }
     }
   }
-  &_logo {
+  &__logo {
     color: #000;
     font-size: 29px;
-    font-weight: 400;
     letter-spacing: 0.5px;
   }
-  &_title {
+  &__title {
     width: 525px;
     margin-top: 71px;
     color: #000;
     font-size: 43px;
-    font-weight: 400;
     letter-spacing: 1.22px;
   }
-  &_subtitle {
+  &__subtitle {
     width: 526px;
     margin-top: 29px;
     color: rgba(0, 0, 0, 0.60);
     font-family: Outfit;
     font-size: 22px;
   }
-  &_btn {
+  &__btn {
     margin-top: 22px;
     border: none;
     border: none;
@@ -83,12 +81,12 @@
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
     }
   }
-  &_descr {
+  &__descr {
     margin-top: 192px;
     color: rgba(0, 0, 0, 0.56);
     font-size: 14px;
   }
-  &_img {
+  &__img {
     position: absolute;
     bottom: 10px;
     right: 17%;
