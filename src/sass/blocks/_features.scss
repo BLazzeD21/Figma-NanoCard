@@ -1,6 +1,8 @@
 .features {
+  overflow: hidden;
+  position: relative;
   min-height: 800px;
-  padding: 95px 0 149px 0;
+  padding: 95px 0px 0px 0px;
   &__title {
     margin-left: 150px;
     color: #333;
@@ -9,6 +11,7 @@
   }
   .wrapper {
     margin-top: 120px;
+    margin-bottom: 287px;
     display: flex;
     justify-content: space-between;
   }
@@ -35,5 +38,24 @@
       color: rgba(0, 0, 0, 0.60);
       font-size: 18px;
     }
+  }
+  &__back {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -280px; 
+    img {
+      width: 1150px;
+    }
+  }
+  &__key {
+    position: relative;
+    bottom: -30px;
+    margin-left: 10%;
+  }
+  &__card {
+    position: absolute;
+    bottom: -293px;
+    right: 20%;
   }
 }
