@@ -1,0 +1,12 @@
+.wallets {
+  padding: 0px 264px 99px 149px;
+  &__box {
+    &_item {
+      width: 96px;
+      height: 96px;
+      img {
+        height: 60px;
+      }
+    }
+  }
+}
