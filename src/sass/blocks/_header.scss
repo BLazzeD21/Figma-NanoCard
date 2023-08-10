@@ -1,4 +1,8 @@
+
 .header {
+  .hamburger {
+    display: none;
+  }
   position: relative;
   min-height: 600px;
   background: url("../img/background/header.jpg") center (center / cover) no-repeat;
