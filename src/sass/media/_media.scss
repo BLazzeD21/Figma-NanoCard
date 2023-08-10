@@ -438,6 +438,7 @@
       right: 0;
     }
     &__key {
+      padding-top: 50px;
       img {
         height: 40px;
       }
@@ -445,7 +446,7 @@
   }
   .footer {
     min-height: 300px;
-    padding: 20px 0 30px 0;
+    padding: 20px 0 60px 0;
     transition: 1s all;
     &__key {
       font-size: 20px;
@@ -470,4 +471,31 @@
     }
   }
 }
-// @media screen and (max-width: 319px) {} // ! for 280px
+@media screen and (max-width: 319px) {
+  .wallets {
+    &__info {
+      max-width: 260px;
+    }
+  }
+  .signup {
+    &__title {
+      max-width: 270px;
+    }
+    &__shadow {
+      right: -20%;
+    }
+    &__card {
+      left: -20%;
+    }
+  }
+  .features {
+    &__box {
+      width: 260px;
+    }
+  }
+  .footer {
+    &__rights {
+      font-size: 9px;
+    }
+  }
+} // ! for 280px
