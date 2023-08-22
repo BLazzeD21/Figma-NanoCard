@@ -1,4 +1,5 @@
 @import "labs/bootstrap-reboot.min";
+@import "labs/animate.min";
 
 @import "base/general";
 @import "base/variables";
@@ -18,3 +19,9 @@
 @import "blocks/modal";
 
 @import "media/media";
+
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 1500ms;
+    --animate-delay: 1s;
+  }
