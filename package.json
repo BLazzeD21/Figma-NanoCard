@@ -4,7 +4,8 @@
   "description": "Spend your crypto right from your personal wallet",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "dev": "gulp start",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
